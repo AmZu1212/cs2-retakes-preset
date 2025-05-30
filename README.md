@@ -3,6 +3,19 @@
 
 This is a pre-made Retakes server for CS2. All you need to do is port forward port 27015 on your router, and follow these steps to get a working Retakes server with no hassle. Recommended only for tech-savvy players. requires enough disk space for another cs2 installation (about 60GB).
 
+## Used Plugin List:
+- [Metamod (stable)](https://www.sourcemm.net/downloads.php?branch=stable)
+- [CounterStrikeSharp v1.0.318](https://github.com/roflmuffin/CounterStrikeSharp/releases/tag/v1.0.318)
+- [DeleteBuyZones](https://github.com/ItsChase88/deleteBuyZones)
+- [InstaDefuse](https://github.com/B3none/cs2-instadefuse)
+- [InstaPlant](https://github.com/B3none/cs2-instaplant)
+- [MenuManager](https://github.com/NickFox007/MenuManagerCS2)
+- [PlayerSettings](https://github.com/NickFox007/PlayerSettingsCS2)
+- [RetakesAllocator](https://github.com/yonilerner/cs2-retakes-allocator)
+- [AnyBaseLibCS2](https://github.com/NickFox007/AnyBaseLibCS2)
+- [RetakesPlugin](https://github.com/B3none/cs2-retakes)
+- [RockTheVote (my version)](https://github.com/AmZu1212/cs2-RTV-Fixed)
+- [WeaponPaints](https://github.com/Nereziel/cs2-WeaponPaints)
 ---
 
 ## Step 1: Download CS2 Server Files
