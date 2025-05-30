@@ -1,0 +1,2 @@
+2025-05-30 14:18:05.758 +03:00 [INFO] plugin:Map Chooser Setting mp_timelimit to 10
+2025-05-30 14:18:05.766 +03:00 [INFO] plugin:Map Chooser Setting next map vote time to 645
