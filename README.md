@@ -47,16 +47,35 @@ This is a pre-made Retakes server for CS2. All you need to do is port forward po
 
 ## Step 3: Download and Setup SQL Server (Windows) *(for skins, optional)*
 
+- *(If you don’t want skins, you can skip this and the next step.)*
 - Download and install [MySQL Community Server](https://dev.mysql.com/downloads/mysql/).
 - Follow the installer instructions, set a root password, and finish the installation.
-- *(If you don’t want skins, you can skip this and the next step.)*
-
+- Open Command Prompt as administrator
+- Start MySQL by running:
+    ```
+    mysql -u root -p
+    ```
+- input your password when prompted
+- Inside the MySQL shell, run each line:
+    ```
+    CREATE DATABASE cs2server;
+    CREATE USER 'cs2user'@'localhost' IDENTIFIED BY 'somepassword';
+    GRANT ALL PRIVILEGES ON cs2server.* TO 'cs2user'@'localhost';
+    FLUSH PRIVILEGES;
+    EXIT
+    ```
 ---
 
 ## Step 4: Update WeaponPaints Config *(for skins, optional)*
 
 - Edit the file: `addons\counterstrikesharp\configs\plugins\WeaponPaints\WeaponPaints.json`
-- Enter your MySQL server address, username, password, and database name in the .json file.
+- Enter your MySQL server address, username, password, and database name in the .json file:
+     ```
+    "user": "cs2user",
+    "password": "somepassword",
+    "database": "cs2server",
+    "host": "localhost"
+     ```
 
 ---
 
