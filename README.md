@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6d5549f3-7fdc-4f4f-a26d-739863f46055" alt="cs2"/>
+</p>
+
 ![Top Banner](https://github.com/user-attachments/assets/7fda2d74-d90f-4a15-a4f0-2e73835bf580)
 # cs2-retakes-preset
 
