@@ -44,7 +44,7 @@ This is a pre-made Retakes server for CS2. All you need to do is port forward po
 
 ---
 
-## Step 5: Update WeaponPaints Config
+## Step 5: Update WeaponPaints Config *(for skins, optional)*
 
 - Edit the file: `addons\counterstrikesharp\configs\plugins\WeaponPaints\WeaponPaints.json`
 - Enter your MySQL server address, username, password, and database name in the .json file.
