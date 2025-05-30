@@ -27,16 +27,7 @@ This is a pre-made Retakes server for CS2. All you need to do is port forward po
 
 ---
 
-## Step 3: Get a Steam Game Server Login Token (GSLT)
-
-1. Go to [https://steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers)
-2. Enter **App ID:** `730`
-3. Enter any memo.
-4. Click **Create** and copy the generated token.
-
----
-
-## Step 4: Download and Setup SQL Server (Windows) *(for skins, optional)*
+## Step 3: Download and Setup SQL Server (Windows) *(for skins, optional)*
 
 - Download and install [MySQL Community Server](https://dev.mysql.com/downloads/mysql/).
 - Follow the installer instructions, set a root password, and finish the installation.
@@ -44,17 +35,26 @@ This is a pre-made Retakes server for CS2. All you need to do is port forward po
 
 ---
 
-## Step 5: Update WeaponPaints Config *(for skins, optional)*
+## Step 4: Update WeaponPaints Config *(for skins, optional)*
 
 - Edit the file: `addons\counterstrikesharp\configs\plugins\WeaponPaints\WeaponPaints.json`
 - Enter your MySQL server address, username, password, and database name in the .json file.
 
 ---
 
-## Step 6: Change Server Config
+## Step 5: Change Server Config
 
 - Copy your `server.cfg` file to:
 - Edit it as needed (hostname, rcon password, etc.).
+
+---
+
+## Step 6: Get a Steam Game Server Login Token (GSLT)
+
+1. Go to [https://steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers)
+2. Enter **App ID:** `730`
+3. Enter any memo.
+4. Click **Create** and copy the generated token.
 
 ---
 
