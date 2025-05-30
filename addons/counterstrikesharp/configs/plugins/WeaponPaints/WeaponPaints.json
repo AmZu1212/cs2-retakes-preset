@@ -3,9 +3,9 @@
   "SkinsLanguage": "en",
   "DatabaseHost": "localhost",
   "DatabasePort": 3306,
-  "DatabaseUser": "cs2skin",
+  "DatabaseUser": "your_database_username",
   "DatabasePassword": "your_strong_password",
-  "DatabaseName": "weaponpaints",
+  "DatabaseName": "your_Database_name",
   "CmdRefreshCooldownSeconds": 3,
   "Website": "example.com/skins",
   "Additional": {
