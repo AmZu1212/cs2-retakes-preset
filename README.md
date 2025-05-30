@@ -1,3 +1,4 @@
+![Top Banner](https://github.com/user-attachments/assets/7fda2d74-d90f-4a15-a4f0-2e73835bf580)
 # cs2-retakes-preset
 
 This is a pre-made Retakes server for CS2. All you need to do is port forward port 27015 on your router, and follow these steps to get a working Retakes server with no hassle. Recommended only for tech-savvy players. requires enough disk space for another cs2 installation (about 60GB).
@@ -82,3 +83,5 @@ This is a pre-made Retakes server for CS2. All you need to do is port forward po
 
 **Done. Enjoy your Retakes server!**  
 If you have issues, double-check each step and your port forwarding.
+
+![Bottom Banner](https://github.com/user-attachments/assets/37fdd0cc-1e97-464d-82f6-6b3a6e116ac4)
